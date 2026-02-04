@@ -1,0 +1,26 @@
+{
+  "Math": [
+    {
+      "q": "2 + 2 = ?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "22"
+      ],
+      "answer": 1
+    }
+  ],
+  "Science": [
+    {
+      "q": "Water freezes at what temperature (\u00b0C)?",
+      "choices": [
+        "0",
+        "100",
+        "-10",
+        "50"
+      ],
+      "answer": 0
+    }
+  ]
+}
