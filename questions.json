@@ -64,5 +64,17 @@
       ],
       "answer": 1
     }
+  ],
+  "Balls": [
+    {
+      "q": "what colour was hitlers balls",
+      "choices": [
+        "Choice 1",
+        "Choice 2",
+        "the right answer",
+        "6 7"
+      ],
+      "answer": 3
+    }
   ]
 }

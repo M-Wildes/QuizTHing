@@ -1,0 +1,199 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(180deg, #0f172a, #020617) fixed;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: rgba(2, 6, 23, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1e293b;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #38bdf8;
+}
+
+/* Nav */
+header nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+header nav a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background: #38bdf8;
+    transition: 0.3s;
+}
+
+header nav a:hover::after {
+    width: 100%;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-top: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+ p {
+    color: #94a3b8;
+    text-align: center;
+    
+}
+
+/* Downloads card */
+#downloads {
+    background: #020617;
+    margin: 60px auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#features {
+    background: #020617;
+    margin: 60px auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#contact {
+    background: #020617;
+    margin: 60px auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+    text-align: center;
+    transition: 0.3s;
+}
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#downloads:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+    transform: scale(1.05);
+}
+#login {
+    background: #020617;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #94a3b8;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    background: #020617;
+    color: #e5e7eb;
+    
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #38bdf8;
+    box-shadow: 0 0 5px #38bdf8;
+    transition: 0.2s;
+
+}
+button {
+    background: #38bdf8;
+    color: #020617;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    background: #0db2ff;
+
+}
+/* Footer */
+footer {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}

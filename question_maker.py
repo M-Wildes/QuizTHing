@@ -286,7 +286,6 @@ class QuestionEditor(QMainWindow):
         self.current_question_index = None
         self._dirty = False
         self.refresh_subjects()
-
     # -------------------------
     # Questions
     # -------------------------
