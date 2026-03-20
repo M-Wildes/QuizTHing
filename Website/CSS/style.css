@@ -79,17 +79,6 @@ h2 {
 }
 
 /* Downloads card */
-#downloads {
-    background: #020617;
-    margin: 60px auto;
-    padding: 40px;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 12px;
-    border: 1px solid #1e293b;
-    text-align: center;
-    transition: 0.3s;
-}
 
 #features {
     background: #020617;
@@ -98,9 +87,46 @@ h2 {
     width: 90%;
     max-width: 600px;
     border-radius: 12px;
-    border: 1px solid #1e293b;
+    border: 1px solid #475d80;
     text-align: center;
     transition: 0.3s;
+}
+
+#downloads {
+    background: #020617;
+    margin: 60px auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #475d80;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#leaderboards {
+    background: #020617;
+    margin: 60px auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #475d80;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#mainbackground {
+    background: #020617;
+    margin: 60px auto;
+    padding: 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    border: 1px solid #2d3e58;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 0px;
 }
 
 #contact {
@@ -110,7 +136,7 @@ h2 {
     width: 90%;
     max-width: 600px;
     border-radius: 12px;
-    border: 1px solid #1e293b;
+    border: 1px solid #475d80;
     text-align: center;
     transition: 0.3s;
 }
