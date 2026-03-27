@@ -1,42 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Signup / Login</title>
     <link rel="stylesheet" href="CSS/style.css">
+    
     <script src="JS/script.js"></script>
-    <title>Quizzers - Sign in</title>
 </head>
-
 <body>
 
-<header>
-    <a href="index.html"><h1>Quizzers</h1></a>
-    <nav>
-        <a href="index.html">Home</a>
-    </nav>
-</header>
+<h2>Create Account / Login</h2>
 
-<main>
-    <h2>Welcome to Quizzers!</h2>
-    <p>Login or Create an Account</p>
+<input type="email" id="email" placeholder="Email">
+<br>
 
-    <section id="login">
-        <h3>Login</h3>
-        <form action="login" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required length="3" maxlength="18" size="25px" >
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required length="6" maxlength="64" size="25px">
-            <button type="submit">Sign In</button>
-            <button type="button" onclick="window.location.href='signup.html'">Create Account</button>
-        </form>
-    </section>
-</main>
+<input type="password" id="password" placeholder="Password">
+<br>
 
-    <p>&copy; 2026 Wet Noodle Inc. All rights reserved.</p>
-</footer>
+<button onclick="signup()">Sign Up</button>
+<button onclick="login()">Login</button>
+
+<p id="message"></p>
+
+<script src="script.js">
+
+    console.log("Signup page loaded");
+</script>
 
 </body>
 </html>

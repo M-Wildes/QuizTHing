@@ -1,2 +1,3 @@
 /users.json
 .wrangler/cache/wrangler-account.json
+quiz-auth/wrangler.toml
