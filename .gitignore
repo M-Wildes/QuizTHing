@@ -1,3 +1,8 @@
 /users.json
 .wrangler/cache/wrangler-account.json
 quiz-auth/wrangler.toml
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
