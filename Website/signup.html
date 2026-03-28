@@ -23,15 +23,10 @@
 
     <section id="login">
         <h3>Login</h3>
-        <form action="login" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required length="3" maxlength="18" size="25px" >
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required length="6" maxlength="64" size="25px">
-            <button type="submit">Sign In</button>
-            <button type="button" onclick="window.location.href='signup.html'">Create Account</button>
-        </form>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="signup()">Sign Up</button>
+        <button onclick="login()">Login</button>
     </section>
 </main>
 
